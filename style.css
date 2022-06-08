@@ -107,18 +107,9 @@ figcaption {
 }
 
 /* Forces footer to stay at the bottom */
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    display: table;
-}
-
 footer {
-    background-color: grey;
-    display: table-row;
-    height: 0;
-}
+position: absolute;
+right: 0;bottom:0;left:0;
 
 /* Change font for bibliography (h5) */
 h5 {
